@@ -1,0 +1,8 @@
+project: savantenvs/openmv
+target: jpeg_encode
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/jpeg_encode/testsuite
+cmds:
+  - cmd: /mayhem/jpeg_encode
+    libfuzzer: true

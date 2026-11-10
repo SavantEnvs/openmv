@@ -1,0 +1,8 @@
+project: savantenvs/openmv
+target: barcode_find
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/barcode_find/testsuite
+cmds:
+  - cmd: /mayhem/barcode_find
+    libfuzzer: true

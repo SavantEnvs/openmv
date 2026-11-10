@@ -1,0 +1,8 @@
+project: savantenvs/openmv
+target: png_decode
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/png_decode/testsuite
+cmds:
+  - cmd: /mayhem/png_decode
+    libfuzzer: true

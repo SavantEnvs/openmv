@@ -1,0 +1,3 @@
+#ifndef SHIM_CMSIS_EXTENSION_H
+#define SHIM_CMSIS_EXTENSION_H
+#endif

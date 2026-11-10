@@ -1,0 +1,3 @@
+#ifndef SHIM_BOARD_CONFIG_H
+#define SHIM_BOARD_CONFIG_H
+#endif

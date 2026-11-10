@@ -1,0 +1,8 @@
+project: savantenvs/openmv
+target: qrcode_find
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/qrcode_find/testsuite
+cmds:
+  - cmd: /mayhem/qrcode_find
+    libfuzzer: true
